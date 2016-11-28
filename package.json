@@ -1,0 +1,19 @@
+{
+  "name": "one-page-website)",
+  "version": "1.0.0",
+  "description": "my self-introduction website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popingpaul/one-page-website.git"
+  },
+  "author": "paul\u001b[D\u001b[D\u001b[D\u001b[Dpopingpaul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popingpaul/one-page-website/issues"
+  },
+  "homepage": "https://github.com/popingpaul/one-page-website#readme"
+}
