@@ -58,7 +58,7 @@ nav img{
     background-size: 100% 640px;
 }
 
-.welcom{
+.welcome{
    display: none;
    position: absolute;
    top:280px;
@@ -160,8 +160,8 @@ nav img{
 }
 
 .line{
-    width: 1500px;
-    margin:10px 80px;
+    width: 1200px;
+    margin:10px auto;
 }
 .ques{
     margin-top: 20px;

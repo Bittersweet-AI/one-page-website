@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 function pageAnimation(){
     setTimeout(function(){
-        $(".welcom").fadeIn(800);
+        $(".welcome").fadeIn(800);
         $(".status").animate({
                 right:'400px',
                 opacity:'0.9'
