@@ -21,10 +21,10 @@ $(document).ready(function() {
     });
 
     $("#wx").hover(function(){
-        $(".wx-detail").show();
+        $(".photo").css('background-image','url(./images/wxdetail.JPG)');
     },function(){
-        $(".wx-detail").hide();
-    });
+        $(".photo").css('background-image','url(./images/photo.jpg)')
+    })
 
     $("#no").on("click",function(){
             
@@ -35,12 +35,13 @@ $(document).ready(function() {
     $(window).scroll(function(){
 
         var scroll=$(window).scrollTop();
-            if (700>scroll&&scroll>=400) {
+            if (700>scroll&&scroll>=30) {
                 $(".about-content").fadeIn(1000);
             }else if(900>scroll&&scroll>=700){
-                $("#skills-img").addClass("animation");
-            }else if(scroll>=1100){
-                $(".skills-list").fadeIn(1000);
+                $(".skills-img").addClass("animationed");
+                setTimeout(function(){
+                    $(".skills-list").fadeIn(1000);
+                },1000);
             }
     });
 
@@ -53,8 +54,8 @@ function pageAnimation(){
     setTimeout(function(){
         $(".welcome").fadeIn(800);
         $(".status").animate({
-                right:'400px',
-                opacity:'0.9'
+                right:'30%',
+                opacity:'0.7'
             },1000);
     },500);
 }
