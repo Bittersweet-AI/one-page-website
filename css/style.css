@@ -181,7 +181,7 @@ nav img{
     font-size: 30px;
 }
 #yes,#no{
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: -18px;
     float: left;
     font-size: 60px;
@@ -194,30 +194,29 @@ nav img{
 
 @keyframes mymove
 {
-0% {margin-left: 20px;}
-50% {margin-left: 50px;}
-100% {margin-left: 20px;}
+0% {margin-left: 10px;}
+50% {margin-left: 30px;}
+100% {margin-left: 10px;}
 }
 
 @-moz-keyframes mymove /* Firefox */
 {
-0% {margin-left: 20px;}
-50% {margin-left: 50px;}
-100% {margin-left: 20px;}
+0% {margin-left: 10px;}
+50% {margin-left: 30px;}
+100% {margin-left: 10px;}
 }
 
 @-webkit-keyframes mymove /* Safari 和 Chrome */
 {
-0% {margin-left: 20px;}
-50% {margin-left: 50px;}
-100% {margin-left: 20px;}
+0% {margin-left: 10px;}
+50% {margin-left: 30px;}
+100% {margin-left: 10px;}
 }
 
 #arr{
     position: absolute;
     width: 40px;
     height: 40px;
-    margin-left: 20px;
     margin-top: 18px;
     animation: mymove 1s linear  infinite alternate;
 }
